@@ -15,7 +15,7 @@ snake = Snake()
 while game_flag:
     snake.move()
     screen.update()
-    time.sleep(0.5)
+    time.sleep(0.1)
 
 
 screen.exitonclick()
